@@ -1,4 +1,4 @@
-# cpe2cve 🔄🛡️
+# cpe2cve 🔍🛡️
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
