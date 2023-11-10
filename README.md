@@ -2,9 +2,17 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Overview
+
+## Description
 
 This a Python script that retrieves and organizes Common Vulnerabilities and Exposures (CVE) data related to a given Common Platform Enumeration (CPE). The script uses the National Vulnerability Database (NVD) API to fetch relevant information and presents it in a sorted order based on severity.
+
+## Features
+
+- Fetches CVE data for a given CPE.
+- Sorts CVEs by severity in descending order.
+- Displays CVE details, including ID, score, and severity.
+
 
 ## Usage
 
@@ -20,12 +28,6 @@ python3 cpe2cve.py -c cpe:2.3:a:apache:http_server:2.4.54
 ```
 
 Replace the example CPE with your specific CPE for analysis.
-
-## Features
-
-- Fetches CVE data for a given CPE.
-- Sorts CVEs by severity in descending order.
-- Displays CVE details, including ID, score, and severity.
 
 ## Sample Output
 
